@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+	<head>
+		<title>CMPSC311 Project Submission Portal</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="banner"><h1>CMPSC311 Project Submission Portal</h1></div>
+		<div id="container">
+			<h2 class="prompt">It appears you've registered, but you haven't yet confirmed your email address. Please check your email for a confirmation link, which you can use to confirm your account. If you did not receive a link, or would like us to try sending you your confirmation again, please enter your email address below:</h2>
+			<div class="resend">
+			<form enctype="multipart/form-data" action="../php/resend_confirmation.php" method="POST"><p>Email Address</p><input type="text" name="email" required/><br /><input type="submit" value="Resend Confirmation"/></form>
+			</div>
+		</div>
+	</body>
+</html>
